@@ -1,0 +1,26 @@
+# --- Betriebssystem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- VS Code & PlatformIO (ESP32) ---
+.pio/
+.vscode/
+*.bin
+*.elf
+
+# --- KiCad (Temporäre Dateien & Backups) ---
+.history/
+*.bak
+*-backups/
+*.lck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+fp-info-cache
+
+# --- MATLAB ---
+*.asv
+*.m~
+slprj/
+*.mex*
