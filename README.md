@@ -1,38 +1,38 @@
-# ESP32 WLAN-Funktionsgenerator
+# ESP32 Wi-Fi Function Generator
 
-## Projektbeschreibung
+## Project Description
 
-Ziel dieses Projekts ist die Entwicklung eines WLAN-gesteuerten Funktionsgenerators auf Basis eines ESP32-Mikrocontrollers.
+The goal of this project is to develop a Wi-Fi-controlled function generator based on an ESP32 microcontroller.
 
-Das Gerät soll verschiedene elektrische Signalformen erzeugen und deren Parameter über eine selbst entwickelte Weboberfläche einstellen können.
+The device should be able to generate various electrical waveforms and adjust their parameters via a custom-developed web interface.
 
-Die digitale Signalerzeugung erfolgt durch den integrierten DAC des ESP32. Anschließend wird das Signal durch eine analoge RC-Tiefpassschaltung aufbereitet, um unerwünschte hochfrequente Signalanteile zu reduzieren.
+Digital signal generation is handled by the ESP32's integrated DAC. Subsequently, the signal is conditioned by an analog RC low-pass filter circuit to reduce unwanted high-frequency signal components.
 
-Die Hardware wird mit KiCad entwickelt und auf einer eigenen Platine realisiert.
+The hardware is designed using KiCad and implemented on a custom PCB.
 
-Zusätzlich wird das Verhalten des analogen Filters theoretisch berechnet und experimentell mit einem Oszilloskop untersucht. Die Messergebnisse werden dokumentiert und ausgewertet.
+Additionally, the behavior of the analog filter is theoretically calculated and experimentally examined using an oscilloscope. The measurement results are documented and evaluated.
 
-## Projektziele
+## Project Goals
 
-- Erzeugung verschiedener Signalformen (Sinus, Rechteck, Dreieck).
-- Einstellung der Frequenz über eine Weboberfläche.
-- Einstellung der Amplitude, soweit hardwareseitig möglich.
-- WLAN-Kommunikation zwischen Benutzer und ESP32.
-- Entwicklung einer analogen RC-Tiefpassschaltung.
-- Entwicklung und Fertigung einer eigenen PCB mit KiCad.
-- Durchführung und Dokumentation von Messungen.
-- Vergleich theoretischer und praktischer Ergebnisse.
+- Generation of various waveforms (sine, square, triangle).
+- Frequency adjustment via a web interface.
+- Amplitude adjustment, as far as possible on the hardware side.
+- Wi-Fi communication between the user and the ESP32.
+- Development of an analog RC low-pass filter circuit.
+- Design and manufacturing of a custom PCB using KiCad.
+- Execution and documentation of measurements.
+- Comparison of theoretical and practical results.
 
-## Verwendete Technologien
+## Technologies Used
 
 - ESP32-WROOM-32
 - Arduino C++
-- HTML, CSS und JavaScript
+- HTML, CSS, and JavaScript
 - KiCad
-- Git und GitHub
+- Git and GitHub
 - Microsoft Excel
 - MATLAB (optional)
 
-## Zeitrahmen
+## Timeframe
 
-8 Wochen Entwicklungszeit mit jeweils ungefähr 4 Stunden pro Woche.
+8 weeks of development time with approximately 4 hours per week.
